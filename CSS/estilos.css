@@ -1,6 +1,18 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 h1 
 {
     color: rgb(0, 255, 0);
+    background-color: black;
+}
+
+h2
+{
+    color: brown;
+    background-color: gold;
 }
 
 img
@@ -13,4 +25,15 @@ figcaption
 {
     text-align: center;
     background-color: gray;
+}
+
+a
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+li
+{
+    list-style-type: none;
 }
