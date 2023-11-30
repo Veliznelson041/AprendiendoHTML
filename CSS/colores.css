@@ -1,0 +1,25 @@
+.colores
+{
+    color: tomato;
+    background-color:#161A30;
+    margin: 100px 50px;
+    text-align: center;
+}
+
+.estilo1
+{
+    background-color: #DF826C;
+    padding: 40px 10px;
+}
+
+.blo
+{
+    background: rgb(240, 56, 89);
+    display: inline-block;
+}
+
+.aa
+{
+    background: rgb(240, 56, 89);
+    display: block;
+}

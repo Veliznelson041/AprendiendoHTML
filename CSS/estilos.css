@@ -25,6 +25,8 @@ figcaption
 {
     text-align: center;
     background-color: gray;
+    font-size: 50px;
+    color: darkred;
 }
 
 a
@@ -36,4 +38,13 @@ a
 li
 {
     list-style-type: none;
+}
+
+
+.estilo1
+{
+    font-size: 30px;
+    font-size: 20px;
+    font-size: 60px;
+    font-size: 30px;
 }
