@@ -262,17 +262,47 @@ En la casa:
 
 <h4>Selects, Radios y Checkboxs</h4>
 <form action="">
-  <p>Elige tu idioma</p>
+  <p>Elige tu idioma:</p>
   <select name="idioma">
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
+    <option value="">Elige una opción</option>
+    <option value="es">Español</option>
+    <option value="en">Inglés</option>
+    <option value="fr">Frances</option>
+    <option value="it">Italiano</option>
+    <option value="pt">Portugués</option>
   </select>
+  <input type="submit">
+  <input type="reset">
 </form>
 <hr>
 
+<p>Elige tu lenguaje de progamación favorito</p>
+<input type="radio" name="lenguaje" id="radio-js" value="js">
+<label for="radio-js">JavaScript</label>
+<input type="radio" name="lenguaje" id="radio-py" value="py">
+<label for="radio-py">Python</label>
+<input type="radio" name="lenguaje" id="radio-php" value="php">
+<label for="radio-php">PHP</label>
+<input type="submit">
+<input type="reset">
+<hr>
 
-<!--FALTA COMPLETAR-->
+<p>Elige tus intereses:</p>
+<label>
+  <input type="checkbox" name="intereses" value="educacion">
+  Educación
+</label>
+<label>
+  <input type="checkbox" name="intereses" value="tecnologia">
+  Tecnología
+</label>
+<label>
+  <input type="checkbox" name="intereses" value="deportes">
+  Deportes
+</label>
+<input type="submit">
+<input type="reset">
+<hr>
 
 <h4>Formulario de contacto</h4>
 <form action="https://formsubmit.co/veliznelson041@gmail.com" method="POST">
