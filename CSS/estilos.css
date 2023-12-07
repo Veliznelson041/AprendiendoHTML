@@ -48,3 +48,22 @@ li
     font-size: 60px;
     font-size: 30px;
 }
+
+.nav1
+{
+    background-color: tomato;
+    padding: 20px;
+}
+
+.columna
+{
+    background: #03045E;
+    color: #E9E5D6;
+    padding: 15px;
+    margin: 10px;
+}
+
+.contenedor-padre
+{
+    display: flex;
+}

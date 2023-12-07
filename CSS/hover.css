@@ -1,0 +1,31 @@
+button
+{
+    background: black;
+    color: goldenrod;
+}
+
+button:hover
+{
+    background: darkred;
+}
+
+button:active
+{
+    background: darkolivegreen;
+}
+
+.boton
+{
+    background: black;
+    color: goldenrod;
+}
+
+.boton:hover
+{
+    background: darkred;
+}
+
+.boton:active
+{
+    background: darkolivegreen;
+}
