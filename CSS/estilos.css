@@ -1,3 +1,8 @@
+body
+{
+    background-image: url("IMG/LeonBlanco.jpg");
+}
+
 html
 {
     scroll-behavior: smooth;
