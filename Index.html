@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="CSS/colores.css">
     <link rel="stylesheet" href="CSS/hover.css">
 </head>
-<body>
+<body style="background-image: url(IMG/FondoPag7.jpg);">
   <h1 id="inicio" class="colores">Aprendiendo HTML</h1>
 
   <hr>
 <nav class="nav1">
   <a href="index.html#inicio">INICIO</a>
-  <a href="#">NOSOTROS</a>
+  <a href="index.html#enlaces2">NOSOTROS</a>
   <a href="index.html#enlaces2">CONTACTO</a>
 </nav>
 <hr>
 
   <h2 id="Texto-basico">Etiquetas de texto</h2>
-  <ul>
+  <ul class="cuadro">
     <li><a href="index.html#encabezados">ENCABEZADO</a></li>
     <li><a href="index.html#textos-basicos">TEXTOS BASICOS</a></li>
     <li><a href="index.html#etiquetas-formateo">ETIQUETAS DE FORMATEO</a></li>
@@ -40,6 +40,7 @@
   </ul>
 
   <h2 id="encabezados">Tipos de encabezados</h2>
+  <ol class="cuadro">
     <h1>Encabezado nivel 1</h1><!--Solo se escribe uno por documento HTML-->
     <p>Hola, escribiendos mis primeros documentos HTML</p>
     <h2>Encabezado nivel 2</h2><!--Este se usa para subtitulos-->
@@ -48,26 +49,26 @@
     <h5>Encabezado nivel 5</h5>
     <h6>Encabezado nivel 6</h6>
     <a href="index.html#inicio">☝️</a>
+  </ol>
     <hr>
 
-    <h2 id="texto-basico"></h2>
-  <p>
+    <h2 id="texto-basico">Texto básico</h2>
+  <p class="cuadro">
     Palabras en : <b>Negrita</b>, <i>Cursiva</i>,<u>Subrayado</u>, e=mc <sup>2</sup>,H <sub>2</sub>O, <mark>Texto resaltado</mark>,<small>Letras pequeñas</small>
     <hr>
-  </p><p>
-    <strong>Este texto es importante</strong>,<em>Este texto hace énfasis</em>
+  </p><p class="cuadro">
+    <strong>Este texto es importante</strong>,<em> Este texto hace énfasis</em>
   </p>
-  <blockquote>Sólo se que no se nada</blockquote>
-  <cite>Sócrates</cite>
-  <p>
+  <blockquote class="cuadro">Sólo se que no se nada</blockquote>
+  <cite class="cuadro">Sócrates</cite>
+  <p class="cuadro">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Exercitationem itaque minus iusto sapiente repellendus optio accusantium culpa. <br> Commodi error iure, <br> <br> modi autem fuga quis dicta magni! Cum voluptatibus culpa dolores. 
   </p>
   <a href="index.html#inicio">☝️</a>
   <hr>
   <pre>
-
     <h2 id="etiquetas-formateo">ETIQUETAS DE FORMATEO</h2>
-    <p>Tareas por hacer:
+    <p class="cuadro">Tareas por hacer:
 En el curso:
       - No faltar a clases.
       - Repasar la teoría.
@@ -80,10 +81,10 @@ En la casa:
   </pre>
   <a href="index.html#inicio">☝️</a>
   <hr>
-  <p>
+  <p class="cuadro">
     <code>Este texto está en formato de código</code>
   </p>
-  <pre>
+  <pre class="cuadro">
     <code>
       function clearScreen() {
         document.getElementById("Respuesta").
@@ -110,7 +111,7 @@ En la casa:
   <h2 id="lineas-bloques">Etiquetas de bloque VS Etiquetas de linea</h2>
   <div style="background-color: gold;">La etiqueta de bloque por exelencia es la DIV</div>
   <span style="background-color: Brown;">La etiqueta de linea por exelencia es la SPAN</span>
-  <span>Hola, soy otra SPAN</span>
+  <span class="cuadro">Hola, soy otra SPAN</span>
 <script>
     console.log("Hola, estamos aprendiendo HTML")
 </script>
@@ -119,7 +120,7 @@ En la casa:
 <hr>
 
 <h2 id="imagenes">Imágenes</h2>
-<img src="IMG/terror.gif" alt="Personaje de terror que te atrapa(GIF)">
+<img src="IMG/lenguajes-programacion-top.gif" alt="Una persona programando">
 <img src="IMG/Imagen5.png" alt="Payaso Pennywise">
 <img src="IMG/Imagen6.jpeg" alt="Persona mirando hacia arriba a la izquiera">
 <img src="IMG/Imagen4.jpeg" alt="Bandera Argentina">
@@ -135,21 +136,21 @@ En la casa:
 <hr>
 
 <h2 id="listas">Listas Ordenadas</h2>
-<h3>Estaciones del año</h3>
-<ol type="I">
+<h3 class="cuadro">Estaciones del año</h3>
+<ol type="I" class="cuadro">
   <li>Primavera</li>
   <li>Verano</li>
   <li>Otoño</li>
   <li>Invierno</li>
 </ol>
 
-<ol reversed>
+<ol reversed class="cuadro">
   <li>Primavera</li>
   <li>Verano</li>
   <li>Otoño</li>
   <li>Invierno</li>
 </ol>
-<ol start="8">
+<ol start="8" class="cuadro">
   <li>Primavera</li>
   <li>Verano</li>
   <li>Otoño</li>
@@ -159,16 +160,16 @@ En la casa:
 <hr>
 
 <h2 id="enlaces">Enlaces</h2>
-<a href="index2.html">Por aqui visito el nuevo documento</a>
+<a href="index2.html" class="cuadro">Por aqui visito el nuevo documento</a>
 <br>
-<a href="https://github.com/Veliznelson041" target="_blank" rel="nofollow">Visita mi sitio web</a>
+<a href="https://github.com/Veliznelson041" target="_blank" rel="nofollow" class="cuadro">Visita mi sitio web</a>
 <a href="index.html#inicio">☝️</a>
 <hr>
 
 <h2 id="enlaces2">Enlaces Especiales</h2>
-<a href="mailto:veliznelson041@gmail.com">Enlace a correo electrónico</a><br>
-<a href="tel:3834415840">Enlace a telefono</a><br>
-<a href="https://api.whatsapp.com/send?phone=543834415840&text=Usuario de tu página web -Repaso HTML- quiere contactarse contigo" target="_blank">Enlace a whatsapp</a><br>
+<a href="mailto:veliznelson041@gmail.com" class="cuadro">Enlace a correo electrónico</a><br>
+<a href="tel:3834415840" class="cuadro">Enlace a telefono</a><br>
+<a href="https://api.whatsapp.com/send?phone=543834415840&text=Usuario de tu página web -Repaso HTML- quiere contactarse contigo" target="_blank" class="cuadro">Enlace a whatsapp</a><br>
 <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img src="IMG/whatsapp.png" alt="Esta imagen abre mi whatsapp" width="50" height="50"></a><br><br>
 <a href="index.HTML#inicio"><img src="IMG/2026751.png" alt="imagen que lleva al inicio" width="50"></a>
 <a href="index.html#inicio">☝️</a>
@@ -184,12 +185,12 @@ En la casa:
 <hr>
 
 <details>
-  <summary>Imagen de esperanza</summary>
+  <summary class="cuadro">Imagen de esperanza</summary>
   <article>
-    <h3>Catastrofe hermosa</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quasi qui dolorem. Commodi debitis pariatur harum rerum modi, architecto corrupti aut, esse suscipit animi neque rem vitae! Ducimus, voluptas. Deleniti.</p>
+    <h3 class="cuadro">Catastrofe hermosa</h3>
+    <p class="cuadro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quasi qui dolorem. Commodi debitis pariatur harum rerum modi, architecto corrupti aut, esse suscipit animi neque rem vitae! Ducimus, voluptas. Deleniti.</p>
     <img src="IMG/Imagen2.jpg" alt="Paisaje montañoso en un barranco mientras cae lava y solo queda un arbol de cerezo">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, saepe? Doloremque adipisci facere repellendus optio sunt tempore suscipit deleniti, quaerat minima nobis? Error rerum illum soluta debitis fugit ad dolor.</p>
+    <p class="cuadro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, saepe? Doloremque adipisci facere repellendus optio sunt tempore suscipit deleniti, quaerat minima nobis? Error rerum illum soluta debitis fugit ad dolor.</p>
   </article>
 </details>
 <a href="index.html#inicio">☝️</a>
@@ -205,12 +206,13 @@ En la casa:
 <hr>
 
 <h2 id="iframes">Iframes</h2>
-<iframe src="index3.html" frameborder="1"></iframe><br>
+<iframe src="index3.html" frameborder="1" class="cuadro"></iframe><br>
+
 <a href="index.html#inicio">☝️</a>
 <hr>
 
 <h2 id="formularios">Formularios</h2>
-<h3>Elementos de Formularios</h3>
+<h3 class="cuadro">Elementos de Formularios</h3>
 <input type="text"><br>
 <input type="checkbox"><br>
 <input type="radio"><br>
@@ -222,11 +224,11 @@ En la casa:
 <input type="button" value="Botón"><br>
 <input type="submit"><br>
 <input type="reset"><br>
-<input type="file"><br>
+<input type="file" class="cuadro"><br>
 <a href="index.html#inicio">☝️</a>
 <hr>
 
-<input type="file" multiple><br>
+<input type="file" multiple class="cuadro"><br>
 <input type="hidden" name="idioma" value="es"><br>
 <input type="email"><br>
 <input type="number"><br>
@@ -261,8 +263,8 @@ En la casa:
 <a href="index.html#inicio">☝️</a>
 <hr>
 
-<h3>Atributos dentro de un formulario</h3>
-<h4>Formulario Login</h4>
+<h3 class="cuadro">Atributos dentro de un formulario</h3>
+<h4 class="cuadro">Formulario Login</h4>
 <form action="https://vercel.com/" target="_blank" method="post">
   <input type="text" name="usuario">
   <br>
@@ -275,10 +277,10 @@ En la casa:
 <a href="index.html#inicio">☝️</a>
 <hr>
 
-<h4>Selects, Radios y Checkboxs</h4>
+<h4 class="cuadro">Selects, Radios y Checkboxs</h4>
 <form action="">
-  <p>Elige tu idioma:</p>
-  <select name="idioma">
+  <p class="cuadro">Elige tu idioma:</p>
+  <select name="idioma" class="cuadro">
     <option value="">Elige una opción</option>
     <option value="es">Español</option>
     <option value="en">Inglés</option>
@@ -292,28 +294,28 @@ En la casa:
 <a href="index.html#inicio">☝️</a>
 <hr>
 
-<p>Elige tu lenguaje de progamación favorito</p>
+<p class="cuadro">Elige tu lenguaje de progamación favorito</p>
 <input type="radio" name="lenguaje" id="radio-js" value="js">
-<label for="radio-js">JavaScript</label>
+<label for="radio-js" class="cuadro">JavaScript</label>
 <input type="radio" name="lenguaje" id="radio-py" value="py">
-<label for="radio-py">Python</label>
+<label for="radio-py" class="cuadro">Python</label>
 <input type="radio" name="lenguaje" id="radio-php" value="php">
-<label for="radio-php">PHP</label>
+<label for="radio-php" class="cuadro">PHP</label>
 <input type="submit">
 <input type="reset">
 <a href="index.html#inicio">☝️</a>
 <hr>
 
-<p>Elige tus intereses:</p>
-<label>
+<p class="cuadro">Elige tus intereses:</p>
+<label class="cuadro">
   <input type="checkbox" name="intereses" value="educacion">
   Educación
 </label>
-<label>
+<label class="cuadro">
   <input type="checkbox" name="intereses" value="tecnologia">
   Tecnología
 </label>
-<label>
+<label class="cuadro">
   <input type="checkbox" name="intereses" value="deportes">
   Deportes
 </label>
@@ -322,7 +324,7 @@ En la casa:
 <a href="index.html#inicio">☝️</a>
 <hr>
 
-<h4>Formulario de contacto</h4>
+<h4 class="cuadro">Formulario de contacto</h4>
 <form action="https://formsubmit.co/veliznelson041@gmail.com" method="POST">
   <input type="text" name="nombre" placeholder="Escribe tu nombre" title="El nombre solo acepta letras y espacios en blanco" required><br>
   <input type="text" name="correo" placeholder="Escribe tu correo electronico" title="Formateo de correo inválido" required><br>
@@ -358,5 +360,12 @@ En la casa:
 <div>
   <section></section>
 </div>
+
+<header style="position: fixed; top: 0; left: 0; width: 100%;">
+  <a href="#inicio">
+    <img src="IMG/LogoPersonal19.jpg" alt="Logo" width="100" height="100">
+  </a>
+</header>
+
 </body>
 </html>

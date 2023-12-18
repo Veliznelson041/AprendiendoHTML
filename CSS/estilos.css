@@ -1,7 +1,10 @@
-body
+body 
 {
-    background-image: url('LeonBlanco.jpg');
+    background-image: url("");
+    background-size: cover; /* Para cubrir toda la pantalla */
+    background-attachment: fixed; /* Para que la imagen de fondo permanezca fija */
 }
+
 
 html
 {
@@ -58,6 +61,8 @@ li
 {
     background-color: tomato;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .columna
@@ -71,4 +76,9 @@ li
 .contenedor-padre
 {
     display: flex;
+}
+
+.cuadro
+{
+    background-color: rgba(255, 255, 255, 0.356);
 }
